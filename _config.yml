@@ -1,28 +1,40 @@
-name: Error by trial.
 favicon: null
-layout_spectrum: 0.872683540917933
-typography_spectrum: 0.6999451539013535
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: Error by trial.
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#17BEBB'
-    - '#2E282A'
-    - '#CD5334'
-    - '#EDB88B'
-    - '#FAD8D6'
-  brandStrength: 0.08460628497414291
-  lightness: 0.4354868435766548
-  saturation: 0.8329661830794066
-  rhythmicContrast: 0.42531220871023834
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose: []
+color:
+  saturation: 0.8476703
+  brandStrength: 0.344086
+  lightness: 0.1648746
+  brandColors:
+    - '#353535'
+    - '#B7B4AF'
+    - '#DBDAD6'
+    - '#6B6A66'
+    - '#858480'
+  rhythmicContrast: 1
+typography_spectrum: 0
+layout_spectrum: 0.2724014
+cta:
+  bucket: null
+  version: null
+  domain: null
+analytics:
+  twitter: null
+  google: null
+  facebook: null
